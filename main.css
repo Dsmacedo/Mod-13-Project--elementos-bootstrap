@@ -1,0 +1,62 @@
+/* Cabaçalho */
+header {
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding:12px;
+    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Slide*/
+.container-fluid {
+    padding: 0;
+}
+
+#carousel-exemplo .carousel-inner, .carousel-item {
+    max-height: 85vh;
+}
+
+#carousel-exemplo .carousel-caption {
+    top: 60%;
+}
+
+img {
+    opacity: 0.85;
+}
+
+#slideletra  {
+    text-decoration: overline;
+    font-size: 40px;
+}
+
+/* Nav */
+.navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-color: rgb(255, 246, 246);
+}
+
+.nav-link {
+    text-align: center;
+}
+
+/* espaçamento */
+#n1 {
+    padding-top: 25px;
+}
+
+.row {
+    grid-row-gap: 10px
+}
+
+footer {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+}
